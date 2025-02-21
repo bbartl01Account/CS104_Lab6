@@ -13,3 +13,7 @@ char coinFlip(void){
 int rollDiceSixSide(void){
   return 1 + (rand() % 6);
 }
+
+int rollDiceTwentySide(void){
+  return 1 + (rand() % 20);
+}
