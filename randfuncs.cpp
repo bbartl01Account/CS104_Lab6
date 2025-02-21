@@ -9,3 +9,7 @@ char coinFlip(void){
     return 'T';
   }
 }
+
+int rollDiceSixSide(void){
+  return 1 + (rand() % 6);
+}
