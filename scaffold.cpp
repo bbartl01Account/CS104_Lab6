@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstdlib>
 #include "mathfunc.h"
+#include "randfuncs.h"
+
 using namespace std;
 
 
@@ -25,6 +27,18 @@ int main(int argc, char *argv[]) {
           cout << "Enter add, sub, mult, or div ";
           cin >> op;
           math_func(num1,num2,op);
+        }
+        else if ("Flip coin" == command)
+        {
+          cout << coinFlip();
+        }
+        else if ("Roll six sided dice" == command)
+        {
+          cout << rollDiceSixSide();
+        }
+        else if ("Roll twenty sided dice" == command)
+        {
+          cout << rollDiceTwentySide();
         }
         else
         {
