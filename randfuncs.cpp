@@ -1,5 +1,6 @@
 #include "randfuncs.h"
-#include <cstdlib>
+//#include <cstdlib>
+#include <stdlib.h>
 
 char coinFlip(void){
   int randomNumber = rand() % 2;
