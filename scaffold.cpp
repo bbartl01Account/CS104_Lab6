@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include <mathfunc.h>
+#include "mathfunc.h"
 using namespace std;
 
 
