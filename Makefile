@@ -1,4 +1,4 @@
-objects = randfuncs.o scaffold.o
+objects = randfuncs.o scaffold.o mathfunc.o
 
 calculator: $(objects)
 	cc -o calculator $^ -lstdc++
