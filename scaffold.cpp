@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include "mathfunc.h"
 #include "randfuncs.h"
+// Cool comment
 
 using namespace std;
 
