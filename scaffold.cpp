@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
           cin >> num1 >> num2 ;
           cout << "Enter add, sub, mult, or div ";
           cin >> op;
-          math_func(num1,num2,op);
+          cout << mathfunc(num1,num2,op);
         }
         else if ("Flip coin" == command)
         {
